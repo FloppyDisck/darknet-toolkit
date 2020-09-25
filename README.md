@@ -3,7 +3,9 @@ A simple script for faster training and testing of dartket based machine learnin
 
 # Setup
 Run the setup script like so:
-'''$ ./setup.sh [darknet folder path]'''
+'''
+$ ./setup.sh [darknet folder path]
+'''
 
 # Usage
 The default folder structure must follow this criteria:
@@ -13,7 +15,9 @@ The default folder structure must follow this criteria:
 
 ## Training
 To train the model using the default folder structure and parameters use this command:
-'''$ python3 model.py [-s, --save_path] [folder path]'''
+'''
+$ python3 model.py [-s, --save_path] [folder path]
+'''
 
 Other flags include:
 * **-o, --objects** Change default path and file name of custom.names
@@ -26,7 +30,9 @@ Other flags include:
 
 ## Testing
 To test the model using the default parameters:
-'''$ python3 model.py [-t, --train] [-v, --video_in] [video]'''
+'''
+$ python3 model.py [-t, --train] [-v, --video_in] [video]
+'''
 This will output a res.avi file in the model folder.
 
 Other flags include:
