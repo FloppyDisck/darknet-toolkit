@@ -11,7 +11,7 @@ $ ./setup.sh [darknet folder path]
 The default folder structure must follow this criteria:
 * Main folder must have the intended model name
 * Must have an images folder containing images and its respective text files
-* Must contain custom.nammes file
+* Must contain custom.names file
 
 ## Training
 To train the model using the default folder structure and parameters use this command:
