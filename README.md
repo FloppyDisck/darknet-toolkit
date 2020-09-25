@@ -30,4 +30,4 @@ To test the model using the default parameters:
 This will output a res.avi file in the model folder.
 
 Other flags include:
-**--video_out** Change the default video output
+* **--video_out** Change the default video output
