@@ -30,8 +30,9 @@ Other flags include:
 
 ## Testing
 To test the model using the default parameters:
+NOTE: You must be inside the saved model folder.
 ```
-$ python3 model.py [-t, --train] [-v, --video_in] [video]
+$ python3 model.py [-t, --test] [-v, --video_in] [video]
 ```
 This will output a res.avi file in the model folder.
 
